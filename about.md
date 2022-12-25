@@ -1,8 +1,10 @@
 ---
 layout: page
-title: 젊은이교회 재정팀은
+title: About
 permalink: /about/
 ---
+
+# 젊은이교회 재정팀은
 
 재정간사, 재정팀장, 재정위원으로 이루어져 있는 팀입니다. 
 
