@@ -1,17 +1,13 @@
 ---
 layout: page
-title: About
+title: 젊은이교회 재정팀은
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+재정간사, 재정팀장, 재정위원으로 이루어져 있는 팀입니다. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+하나님을 향한 사랑의 마음으로 성도님들께서 올려드린 헌금을 계수하고, 하나님의 마음이 있는곳에 재정을 흘려보내는 통로의 역할을 감당하고 있습니다. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+기도로 하나님의 뜻을 구하며 하나님께서 젊은이교회의 재정을 채우시고 사용하시는 것에 함께 동역하고 있습니다.
 
-[jekyll-organization]: https://github.com/jekyll
+https://gshappy.co.kr/92
