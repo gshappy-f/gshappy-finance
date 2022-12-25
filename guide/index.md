@@ -12,6 +12,12 @@ permalink: /guide/
 
 ### (선한목자교회)
 
+<style type="text/css">
+  .copy-code-button {
+    display: block;
+  }
+</style>
+
 {% include codeHeader.html %}
 ```
 새마을금고 3560090084368
