@@ -12,10 +12,10 @@ permalink: /guide/
 
 받는사람: 선한목자교회
 
-{% include codeHeader.html %}
-```
+{% include _includes/codeHeader.html %}
+{% highlight text %}
 새마을금고 3560090084368
-```
+{% endhighlight %}
 
 예) 십일조 : 12345십 / 감사헌금 : 54321감
 
