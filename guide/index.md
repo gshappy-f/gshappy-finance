@@ -15,6 +15,7 @@ permalink: /guide/
 {%- capture code -%}
 새마을금고 3560090084368
 {%- endcapture -%}
+
 {% include code_snippet.md code=code language='javascript' %}
 
 예) 십일조 : 12345십 / 감사헌금 : 54321감
