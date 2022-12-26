@@ -4,20 +4,20 @@
 ``` {{ language }}
 {{ code }}
 ```
-{% assign nanosecond = "now" | date: "%N" %}
-<textarea id="code{{ nanosecond }}" style="display:none;">{{ code | xml_escape }}</textarea>
-<button id="copybutton{{ nanosecond }}" data-clipboard-target="#code{{ nanosecond }}">
+
+<textarea id="code" style="display:none;">{{ code | xml_escape }}</textarea>
+<button id="copybutton" data-clipboard-target="#code">
   Copy
 </button>
 
 <script>
-var copybutton = document.getElementById('copybutton{{ nanosecond }}');
-var clipboard{{ nanosecond }} = new Clipboard(copybutton);
+var copybutton = document.getElementById('copybutton');
+var clipboard = new Clipboard(copybutton);
 
-clipboard{{ nanosecond }}.on('success', function(e) {
+clipboard.on('success', function(e) {
     console.log(e);
 });
-clipboard{{ nanosecond }}.on('error', function(e) {
+clipboard.on('error', function(e) {
     console.log(e);
 });
 </script>
