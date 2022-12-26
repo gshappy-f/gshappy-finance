@@ -12,7 +12,7 @@ permalink: /guide/
 
 받는사람: 선한목자교회
 
-<script src="/assets/scripts/copyCode.js"></script>
+{% include codeHeader.html %}
 ```javascript
 새마을금고 3560090084368
 ```
