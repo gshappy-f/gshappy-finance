@@ -11,6 +11,7 @@ permalink: /guide/
 ## 계좌번호 안내
 
 받는사람: 선한목자교회
+
 {%- capture code -%}
 새마을금고 3560090084368
 {%- endcapture -%}
