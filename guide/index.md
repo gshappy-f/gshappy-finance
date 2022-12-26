@@ -12,6 +12,12 @@ permalink: /guide/
 
 받는사람: 선한목자교회
 
+<script>
+  .copy-code-button {
+    display: block;
+  }
+</script>
+
 {% include codeHeader.html %}
 ```text
 새마을금고 3560090084368
