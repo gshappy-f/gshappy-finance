@@ -26,6 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 minima:
   skin: dark
+ignore_theme_config: true
 plugins:
   - jekyll-feed
   
