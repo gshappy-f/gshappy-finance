@@ -7,7 +7,7 @@
 {% assign nanosecond = "now" | date: "%N" %}
 <textarea id="code{{ nanosecond }}" style="display:none;">{{ code | xml_escape }}</textarea>
 <button id="copybutton{{ nanosecond }}" data-clipboard-target="#code{{ nanosecond }}">
-  클립보드로 복사!
+  Copy
 </button>
 
 <script>
