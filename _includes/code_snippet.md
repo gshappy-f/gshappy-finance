@@ -5,6 +5,7 @@
 {{ code }}
 ```
 
+
 <textarea id="code" style="display:none;">{{ code | xml_escape }}</textarea>
 <button id="copybutton" data-clipboard-target="#code">
   Copy
