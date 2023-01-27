@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: default
 title: '온라인 헌금방법 💰'
 permalink: /guide/
 ---
