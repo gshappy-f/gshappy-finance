@@ -16,7 +16,7 @@ permalink: /guide/
 
 ### 🔖 **교적번호 + 헌금종류**를 보내는 사람으로 송금
 
-[교적번호 확인하기!](https://gsmch.org/main/sub.html?pageCode=240)
+📍[교적번호 확인하기!](https://gsmch.org/main/sub.html?pageCode=240)
 
 송금 시 **교적번호, 헌금종류**를 꼭 기입해주시고,
 
