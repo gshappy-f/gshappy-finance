@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ⛪️
+title: 재정팀 소개 ⛪️
 permalink: /about/
 ---
 
