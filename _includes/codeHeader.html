@@ -7,8 +7,9 @@
       console.log("clicked!!");
       const codeBlocks = document.querySelectorAll('code');
       const code = codeBlocks[0].innerText;
+      console.log(code);
       window.navigator.clipboard.writeText(code).then(() => {
-        alert("복사되었습니다");
+        alert("클립보드로 복사되었습니다");
       });      
     }
   </script>
