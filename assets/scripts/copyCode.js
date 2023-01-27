@@ -4,6 +4,7 @@ const copyCodeButtons = document.querySelectorAll('.copy-code-button');
 
 copyCodeButtons.forEach((copyCodeButton, index) => {
   const code = codeBlocks[index].innerText;
+  console.log(code);
 
   copyCodeButton.addEventListener('click', () => {
     // Copy the code to the user's clipboard
