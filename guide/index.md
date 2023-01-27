@@ -10,6 +10,8 @@ permalink: /guide/
 계좌번호: 3560090084368       
 예금주: 선한목자교회       
 
+<script src="/assets/scripts/copyCode.js"></script>
+
 {% include codeHeader.html %}
 
 ### 2) 보내는 사람으로 **교적번호 + 헌금종류**로 입력해서 송금합니다.
