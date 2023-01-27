@@ -1,22 +1,12 @@
-const copyCode = (clickEvent) => {
-  const copyCodeButton = clickEvent.target;
-  const tempTextArea = document.createElement('textarea');
-  tempTextArea.textContent = copyCodeButton.getAttribute('code');
-  document.body.appendChild(tempTextArea);
+// This assumes that you're using Rouge; if not, update the selector
+const codeBlocks = document.querySelectorAll('code');
+const copyCodeButtons = document.querySelectorAll('.copy-code-button');
 
-  const selection = document.getSelection();
-  selection.removeAllRanges();
-  tempTextArea.select();
-  document.execCommand('copy');
-  selection.removeAllRanges();
-  document.body.removeChild(tempTextArea);
+copyCodeButtons.forEach((copyCodeButton, index) => {
+  const code = codeBlocks[index].innerText;
 
-  copyCodeButton.classList.add('copied');
-  setTimeout(() => {
-    copyCodeButton.classList.remove('copied');
-}, 2000);
-};
-
-document.querySelectorAll('.copy-code-button').forEach((copyCodeButton) => {
-  copyCodeButton.addEventListener('click', copyCode);
+  copyCodeButton.addEventListener('click', () => {
+    // Copy the code to the user's clipboard
+    window.navigator.clipboard.writeText(code);
+  });
 });
