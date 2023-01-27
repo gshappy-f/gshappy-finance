@@ -10,4 +10,4 @@ permalink: /about/
 
 기도로 하나님의 뜻을 구하며 하나님께서 젊은이교회의 재정을 채우시고 사용하시는 것에 함께 동역하고 있습니다.
 
-https://gshappy.co.kr/92
+<a href="https://gshappy.co.kr/92">https://gshappy.co.kr/92</a>
