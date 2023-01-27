@@ -4,10 +4,12 @@
   </button>
   <script>
     function click() {
+      console.log("clicked!!");
       const codeBlocks = document.querySelectorAll('code');
       const code = codeBlocks[0].innerText;
       console.log(code);
       window.navigator.clipboard.writeText(code);
+      alert("복사되었습니다");
     }
   </script>
   <div class="language-plaintext highlighter-rouge">
