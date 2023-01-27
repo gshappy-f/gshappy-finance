@@ -4,7 +4,7 @@ title: '온라인 헌금방법 💰'
 permalink: /guide/
 ---
 
-### * 계좌번호 복사
+### 🔖 계좌번호 복사
 
 입금은행: 새마을금고      
 계좌번호: 3560090084368       
@@ -14,7 +14,7 @@ permalink: /guide/
 
 {% include codeHeader.html %}
 
-### * **교적번호 + 헌금종류**를 보내는 사람으로 송금
+### 🔖 **교적번호 + 헌금종류**를 보내는 사람으로 송금
 
 [교적번호 확인하기!](https://gsmch.org/main/sub.html?pageCode=240)
 
